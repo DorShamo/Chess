@@ -2,13 +2,14 @@
 
 A desktop chess game built with Python and Pygame. Play against the Stockfish engine at four difficulty levels.
 
-| | | |
-|---|---|---|
-| ![](screenshots/Screenshot%202026-10-30%20at%2023.14.39.png) | ![](screenshots/Screenshot%202026-10-30%20at%2023.14.44.png) | ![](screenshots/Screenshot%202026-10-30%20at%2023.19.25.png) |
+| Start menu | Game | Game over |
+|:---:|:---:|:---:|
+| ![Start menu](screenshots/menu.png) | ![Board](screenshots/board.png) | ![Checkmate](screenshots/checkmate.png) |
 
 ## Features
 - Full chess rules: castling, en passant, pawn promotion, check, checkmate and stalemate
 - Legal moves highlighted for the selected piece
+- Start menu with difficulty picker and a game-over screen with "New Game"
 - Four difficulty levels: Easy, Medium, Hard, Expert
 - Every finished game is saved as JSON in `games/`
 
